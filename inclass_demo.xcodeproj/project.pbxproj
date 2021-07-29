@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,7 @@
 		EA4B3250269BE75F00B0C8E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA4B324E269BE75F00B0C8E8 /* LaunchScreen.storyboard */; };
 		EA4B325B269BE75F00B0C8E8 /* inclass_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4B325A269BE75F00B0C8E8 /* inclass_demoTests.swift */; };
 		EA4B3266269BE75F00B0C8E8 /* inclass_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4B3265269BE75F00B0C8E8 /* inclass_demoUITests.swift */; };
+		EA9E2B5E26AE5EAF004965AD /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9E2B5D26AE5EAF004965AD /* TableViewCell.swift */; };
 		F7F3FB3C6F515F3AC9C27154 /* Pods_inclass_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67A76E5E74A9DEA4D4EBD54E /* Pods_inclass_demo.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +62,7 @@
 		EA4B3261269BE75F00B0C8E8 /* inclass_demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = inclass_demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA4B3265269BE75F00B0C8E8 /* inclass_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inclass_demoUITests.swift; sourceTree = "<group>"; };
 		EA4B3267269BE75F00B0C8E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA9E2B5D26AE5EAF004965AD /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +113,6 @@
 				00344AE310222C14FAE39CEF /* Pods-inclass_demoTests.debug.xcconfig */,
 				1A87E4FFAAAADC402875AE74 /* Pods-inclass_demoTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -143,6 +144,7 @@
 				EA4B3243269BE75200B0C8E8 /* AppDelegate.swift */,
 				EA4B3245269BE75200B0C8E8 /* SceneDelegate.swift */,
 				EA4B3247269BE75200B0C8E8 /* ViewController.swift */,
+				EA9E2B5D26AE5EAF004965AD /* TableViewCell.swift */,
 				EA4B3249269BE75200B0C8E8 /* Main.storyboard */,
 				EA4B324C269BE75F00B0C8E8 /* Assets.xcassets */,
 				EA4B324E269BE75F00B0C8E8 /* LaunchScreen.storyboard */,
@@ -408,6 +410,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA4B3248269BE75200B0C8E8 /* ViewController.swift in Sources */,
+				EA9E2B5E26AE5EAF004965AD /* TableViewCell.swift in Sources */,
 				EA4B3244269BE75200B0C8E8 /* AppDelegate.swift in Sources */,
 				EA4B3246269BE75200B0C8E8 /* SceneDelegate.swift in Sources */,
 			);
